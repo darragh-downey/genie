@@ -4,5 +4,14 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  firebaseConfig: {
+    // firebase config
+  },
+
+  mapbox: {
+    // access token
+    accessToken: 'YOUR_MAPBOX_TOKEN'
+  }
 };
